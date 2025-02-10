@@ -38,13 +38,13 @@ npm run dev
 打包專案建構生產環境需要的程式包
 
 ```
-npx run build
+npm run build
 ```
 
 或
 
 ```
-npx run build --preset=iis_node
+npm run build --preset=iis_node
 ```
 
 ![image](https://hackmd.io/_uploads/BJgkGewFyg.png)
