@@ -169,4 +169,14 @@ node .output/server/index.mjs
 使用遠端瀏覽器進行瀏覽，可正常顯示
 ![image](https://hackmd.io/_uploads/H18q4xvYJx.png)
 
-#### [前後端分離] 後端 api 的 127.0.0.1 網址換成伺服器 IP 或是設定的網址即可正常運作
+#### [前後端分離] 後端 api 的 http://127.0.0.1:port/api/path 網址更換
+後端 api 的 127.0.0.1 網址改成伺服器 IP 或是設定的網址
+重新打包專案建構生產環境需要的程式包
+```
+npm run build
+```
+重新開啟本地端伺服器
+```
+node .output/server/index.mjs
+```
+網站功能即可正常運作
