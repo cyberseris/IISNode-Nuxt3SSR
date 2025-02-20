@@ -155,8 +155,10 @@ server 資料夾右鍵 => 安全性
 選取 IIS_IUSRS，並勾選「讀取與執行」權限 => 點擊確定按鈕
 ![image](https://hackmd.io/_uploads/B1IHPw7tkx.png)
 
-重新啟動 IIS
-![image](https://hackmd.io/_uploads/SJieVxPKye.png)
+重新開啟本地端伺服器
+```
+node .output/server/index.mjs
+```
 
 使用遠端瀏覽器進行瀏覽，可正常顯示
 ![image](https://hackmd.io/_uploads/H18q4xvYJx.png)
@@ -167,5 +169,8 @@ server 資料夾右鍵 => 安全性
 ```
 npm run build
 ```
-重新啟動 iis 伺服器
+重新開啟本地端伺服器
+```
+node .output/server/index.mjs
+```
 遠端可正常操作網站功能
