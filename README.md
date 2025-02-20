@@ -168,3 +168,5 @@ node .output/server/index.mjs
 
 使用遠端瀏覽器進行瀏覽，可正常顯示
 ![image](https://hackmd.io/_uploads/H18q4xvYJx.png)
+
+#### [前後端分離] 後端 api 的 127.0.0.1 網址換成伺服器 IP 或是設定的網址即可正常運作
