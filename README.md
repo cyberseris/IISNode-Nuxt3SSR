@@ -158,14 +158,6 @@ server 資料夾右鍵 => 安全性
 重新啟動 IIS
 ![image](https://hackmd.io/_uploads/SJieVxPKye.png)
 
-重新開啟本地端伺服器
-
-```
-node .output/server/index.mjs
-```
-
-![image](https://hackmd.io/_uploads/H157ElvFyg.png)
-
 使用遠端瀏覽器進行瀏覽，可正常顯示
 ![image](https://hackmd.io/_uploads/H18q4xvYJx.png)
 
@@ -175,8 +167,5 @@ node .output/server/index.mjs
 ```
 npm run build
 ```
-重新開啟本地端伺服器
-```
-node .output/server/index.mjs
-```
-網站功能即可正常運作
+重新啟動 iis 伺服器
+遠端可正常操作網站功能
