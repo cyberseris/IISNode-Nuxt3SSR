@@ -174,3 +174,9 @@ npm run build
 node .output/server/index.mjs
 ```
 遠端可正常操作網站功能
+
+#### 使用 PM2 可以自動重啟崩潰的應用程式，並支援開機自動啟動。
+nuxt-app: package.json name 名稱
+```
+pm2 start .output/server/index.mjs --name nuxt-app
+```
